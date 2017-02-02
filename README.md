@@ -9,6 +9,8 @@ To move the Romulan Warbird starship, press the right arrow key.
 
 The first starship to reach the final frontier wins!
 
+Are you ready to race to the final frontier? Go here: https://ychoy.github.io/racing-game/
+
 Technologies Used:
 - HTML
 - CSS
