@@ -11,6 +11,7 @@
     <!-- styles -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 
     <!-- Application scripts -->
     <script
@@ -27,9 +28,27 @@
 
   </head>
   <body>
-    <h1>Starship Racing Game</h1>
-    <img class="img-responsive" class="starship" src="assets/img/starship-enterprise.png" alt="Starship USS Enterprise NCC-1701">
-    <img class="img-responsive" class="starship" src="assets/img/romulan-warbird.png" alt="Romulan Warbird D'deridex class">
+    <div class="container">
+      <h1>Starship Racing Game</h1>
+      <p>
+        <button type="button" class="btn btn-default btn-lg" arial-label="Center Align" id="play"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+        <button type="button" class="btn btn-default btn-lg" arial-label="Center Align" id="reset"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2">
+          <img class="img-responsive starship" id="enterprise" src="assets/img/starship-enterprise.png" alt="Starship USS Enterprise NCC-1701">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2">
+          <img class="img-responsive starship" id="warbird" src="assets/img/romulan-warbird.png" alt="Romulan Warbird D'deridex class">
+        </div>
+      </div>
+    </div>
+
 
   </body>
 </html>

@@ -1,10 +1,47 @@
-/* GENERAL */
+#enterprise {
+  position: relative;
+  bottom: 25%;
 
-body {
-  font-family: 'Open Sans', sans-serif;
 
 }
 
+#warbird {
+  position: relative;
+  top: 25%;
+
+}
+
+
+/* GENERAL */
+
+body {
+  /*background-image: url(../img/space.png);*/
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #ffffff;
+  background-color: #fff;
+  text-align: center;
+}
+
+td {
+  border: 2px solid black;
+  height: 150px;
+  width:150px
+}
+
+td.active{
+  background-color: blue;
+}
+
+button {
+  display: block;
+}
+
+#myBtn {
+  margin: 0 10px;
+  padding: 0;
+}
 /*#wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -28,8 +65,10 @@ img {
     height: auto;
 }
 
-h3 {
-  margin: 0 0 1em 0;
+h1 {
+  color: #ffffff;
+  text-align: center;
+
 }
 
 /* Heading
@@ -42,34 +81,6 @@ header {
   width: 100%;
 }
 
-#logo {
-  text-align: center;
-  margin: 0;
-}
-
-
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  margin: -5px 0 0;
-  font-size: 2em;
-  font-weight: 800;
-  line-height: 1.5em;
-  text-align: center;
-}
-
-
-h2 {
-  font-size: 1.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
-}
-
-h3 {
-  font-size: 1.35em;
-  font-weight: 700;
-  text-align: center;
-  color: #20b2aa;
-}
 /* NAVIGATION */
 
 nav {
@@ -149,18 +160,6 @@ footer {
 COLORS
 */
 
-/* site body
- */
-
-body {
-  background-color:: #fff;
-  color: #2a1513;
-}
-
-header {
-  background: #015f57;
-}
-
 /* nav background on mobile */
 nav {
   background: #015f57;
@@ -169,7 +168,7 @@ nav {
 /* logo text */
 
 h1, h2 {
-  color: #1d7873;
+  color: #ffffff;
 }
 
 
@@ -177,15 +176,4 @@ h1, h2 {
 
 a {
   color: #6ab47b;
-}
-
-
-/* nav link */
-nav a, nav a: visited {
-  color: #fff;
-}
-
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #b0d8da;
 }
