@@ -1,37 +1,19 @@
+/* GENERAL */
+
 #enterprise {
   position: relative;
-  bottom: 25%;
-
-
+  bottom: 50px;
 }
 
 #warbird {
   position: relative;
-  top: 25%;
-
+  bottom: 50px;
 }
 
-
-/* GENERAL */
-
 body {
-  /*background-image: url(../img/space.png);*/
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
   color: #ffffff;
   background-color: #fff;
   text-align: center;
-}
-
-td {
-  border: 2px solid black;
-  height: 150px;
-  width:150px
-}
-
-td.active{
-  background-color: blue;
 }
 
 button {
@@ -42,11 +24,7 @@ button {
   margin: 0 10px;
   padding: 0;
 }
-/*#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-} */
+
 
 a {
   text-decoration: none;
@@ -66,13 +44,11 @@ img {
 }
 
 h1 {
-  color: #ffffff;
+  color: white;
   text-align: center;
 
 }
 
-/* Heading
- */
 
 header {
   float: left;
@@ -81,98 +57,15 @@ header {
   width: 100%;
 }
 
-/* NAVIGATION */
-
-nav {
-  text-align: right;
-  padding: 10px 0;
-  margin: 5px 0 0;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  color: white;
-  font-weight: 700;
-  padding: 10px 10px;
-}
-
-/* FOOTER */
-
-footer {
-  font-size: 0.75em;
-  padding-top: 50px;
-  color: #ccc;
-}
-
-.social-icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-
-/* PAGE: ABOUT */
-
 .starship {
   display: block;
   float: both;
-  width: 50px;
+  width: 75px;
   height: auto;
   margin: 0 auto 30px;
-}
-
-/* PAGE: CONTACT
- */
-
- nav a {
-   color: white;
-   font-weight: 700;
-   padding: 10px 10px;
- }
-
-.container #contact {
-  text-align: center;
-}
 
 }
 
-/* PAGE: PORTFOLIO
- */
-
-
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-}
-
-/*
-COLORS
-*/
-
-/* nav background on mobile */
-nav {
-  background: #015f57;
-}
-
-/* logo text */
-
-h1, h2 {
-  color: #ffffff;
-}
-
-
-/* links */
 
 a {
   color: #6ab47b;
