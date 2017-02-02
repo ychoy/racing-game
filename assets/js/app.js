@@ -28,7 +28,7 @@ $(document).ready(function() {
 				$(".status").text("You tied!");
 				setTimeout(startNewGame, 100)  // Return the starshis to start
 			} else if (warbird.left >= 800) {
-				$("status").text("The Romulans won the race to the final frontier.");
+				$(".status").text("The Romulans won the race to the final frontier.");
 				setTimeout(startNewGame, 100) // Return the starship to start
 			} else if (enterprise.left >= 800) {
 				$(".status").text("The Federation won the race to the final frontier.");
