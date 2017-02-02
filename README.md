@@ -21,6 +21,7 @@ Existing Features:
 Currently, two players can race one starship to the final frontier.
 
 Future Features:
+- Fix the setTimeout feature. The starships return to positions that are not the starting positions. Also the starships move around a bit before stopping to a return point after a player has won. 
 - Obstacles
 - Multiplayer game
 - Countdown to play  
