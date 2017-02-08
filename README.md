@@ -3,9 +3,9 @@ Starship Racing Game
 Two players can operate one of two starships to race to the final frontier.
 
 ##How to Play:
-To move the USS Enterprise starship, press the right arraow key to move.
+To move the USS Enterprise starship, press the right arrow key each time you want the starship to move one space.
 
-To move the Romulan Warbird starship, press the D letter key.
+To move the Romulan Warbird starship, press the D letter key each time you want the starship to move one space.
 
 The first starship to reach the final frontier wins!
 
